@@ -1,98 +1,85 @@
-# 🥗 Nutrition & Fitness App
+# 🥗 NutriFit Pro
 
-A comprehensive lifestyle management platform that helps users optimize their nutrition, fitness, and overall well-being through personalized recommendations and intuitive tracking.
+An all-in-one mobile platform for optimizing nutrition, fitness, and wellness through personalized recommendations and intuitive tracking.
 
----
+## 🚀 Overview
 
-## 🚀 Vision
+NutriFit Pro helps fitness enthusiasts and health-conscious individuals take control of their wellbeing by providing customized nutritional guidance, workout tracking, and lifestyle optimization - all in one integrated mobile solution.
 
-Empower users to take control of their health with an all-in-one tool that provides personalized insights and easy tracking of diet, workouts, and wellness habits.
+## 🎯 Who It's For
 
----
+- Bodybuilders and athletes seeking performance optimization
+- Health-conscious individuals wanting data-driven wellness insights
+- Anyone looking to balance nutrition, fitness, and overall health
 
-## ❗ Problem Statement
+## ✨ Key Features
 
-Most health apps only focus on one area like fitness or food. This app solves that by offering a unified platform tailored for athletes, bodybuilders, and anyone interested in holistic well-being.
+- **Personalized Nutrition Plans:** Custom macro/micronutrient calculations based on your goals
+- **Intelligent Workout Tracking:** Log and analyze your training performance
+- **Holistic Wellness Dashboard:** Integrate sleep, stress, and other lifestyle factors
+- **Smart Visualization:** See your progress through intuitive charts and reports
 
----
+## 🛠️ Technology
 
-## 🎯 Target Audience
+- Built with React Native for native performance on iOS and Android
+- Follows component-based architecture for maintainable, testable code
+- Comprehensive unit testing and documentation
 
-- **Primary**: Bodybuilders and athletes
-- **Secondary**: Health-conscious users aged 15–50
+## 🧭 Current Status
 
----
+**Current Development: Welcome & Onboarding Experience**
+- Creating intuitive first-time user experience
+- Designing engaging onboarding flows
+- Building user profile creation screens
 
-## 🧱 Core Pillars
+## 📋 Development Roadmap
 
-### 1. Diet & Nutrition
-- Personalized macro/micronutrient goals
-- Goal-based meal planning
-- Support for dietary preferences
+### Sprint 1: Welcome & Onboarding Page (2-3 Weeks)
+- [ ] Design welcome page layout with app logo and value proposition
+- [ ] Create animated introduction sequence highlighting app benefits
+- [ ] Implement "Get Started" primary action button
+- [ ] Add secondary "Log In" option for returning users
+- [ ] Build 2-3 simple onboarding slides explaining key app features
+- [ ] Create progress indicators for onboarding slides
+- [ ] Implement smooth transitions between onboarding elements
+- [ ] Add "Skip" option for users who want to proceed directly to input
+- [ ] Design user input form page with clear section headers
+- [ ] Create navigation between welcome page and input form
+- [ ] Implement form state preservation if user navigates away
+- [ ] Add simple animations for form field focus/validation
+- [ ] Set up analytics tracking for onboarding completion rates
+- [ ] Create responsive layouts for different device sizes
+- [ ] Write accessibility features (screen reader support, keyboard navigation)
+- [ ] Implement dark/light mode support based on system settings
+- [ ] Add basic error handling for network/state issues
+- [ ] Create unit tests for navigation logic and state management
+- [ ] Document component structure and navigation flow
 
-### 2. Workout
-- Custom workout plans and logs
-- Progress monitoring
-- Smart exercise suggestions
+### Future Phases
+1. 🚧 **Phase 2:** Core nutrition calculation features
+2. 📅 **Phase 3:** Workout tracking
+3. 📅 **Phase 4:** Lifestyle integration
+4. 🤖 **Phase 5:** AI-powered recommendations
 
-### 3. Lifestyle
-- Sleep and stress tracking
-- General wellness insights
+## 📱 Installation
 
----
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/nutrifit-pro.git
 
-## 🛠️ Technical Highlights
+# Install dependencies
+npm install
 
-- **User-Friendly UI** with CustomTkinter
-- **Personalized Algorithms** for better health outcomes
-- **AI-Ready** for future enhancements
-- **Cross-Platform Roadmap** (desktop now, mobile later)
-- **Secure** handling of personal health data
+# Start the development server
+npm start
 
----
+# Run on iOS
+npm run ios
 
-## ✅ Current Features (Phase 1: Nutrition MVP)
+# Run on Android
+npm run android
+```
 
-- Collect user data
-- Calculate BMR & TDEE
-- Recommend daily macros & micros
-- Visualize nutrition results
-- Export detailed reports
+## 📝 License
 
----
-
-## 🧭 Roadmap
-
-1. ✅ **Phase 1**: Nutrition module (Desktop MVP)
-2. 🚧 **Phase 2**: Add workout tracking
-3. 📅 **Phase 3**: Add lifestyle tracking
-4. 📱 **Phase 4**: Mobile app
-5. 🤖 **Phase 5**: AI-powered personalization
-
----
-
-## 🧩 Architecture
-
-Uses the **MVC pattern**:
-
-- **Model**: Backend logic (calculations, data structures)
-- **View**: UI components (CustomTkinter)
-- **Controller**: Logic & state management
-
----
-
-## 📏 Development Standards
-
-- Python code follows **PEP 8**
-- All functions include **docstrings**
-- Includes **error handling** and **logging**
-- **Unit tests** for critical features
-- **Separation of concerns** between UI and logic
-
----
-
-## 🧪 Getting Started
-
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+[MIT License](LICENSE)
